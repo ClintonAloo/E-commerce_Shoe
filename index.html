@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>E_commerce</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <div class="nav_center">
+          <div class="logo">
+            <img src="./images/logo.svg" class="navlogo" alt="Sneakers" />
+          </div>
+          <ul class="nav_links">
+            <li class="nav_link">Collection</li>
+            <li class="nav_link">Men</li>
+            <li class="nav_link">Women</li>
+            <li class="nav_link">About</li>
+            <li class="nav_link">Contact</li>
+          </ul>
+          <div class="nav_cart">
+            <img src="./images/icon-cart.svg" alt="Cart" />
+            <img class="nav_avatar" src="./images/image-avatar.png" alt="" />
+          </div>
+        </div>
+      </nav>
+      <main class="main">
+        <div class="main_center">
+          <div class="gallery">
+            <img
+              class="main_image"
+              src="./images/image-product-1.jpg"
+              alt="sneakerpic"
+            />
+            <div class="image_grid">
+              <img
+                class="grid_img_active"
+                src="./images/image-product-1-thumbnail.jpg"
+                alt=""
+              />
+              <img src="./images/image-product-2-thumbnail.jpg" alt="" />
+              <img src="./images/image-product-3-thumbnail.jpg" alt="" />
+              <img src="./images/image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+          <div class="info">
+            <h5 class="info_company">sneaker company</h5>
+            <h2 class="info_edition">fall limited edition <br />sneakers</h2>
+            <p class="info_description">
+              The low profile sneakers are your perfect casual wear companion.
+              featuring a durable rubber outer sole, they'll withstand
+              everything the weather can offer
+            </p>
+            <div class="info_price">
+              <p class="info_new_price">$125.00</p>
+              <span class="info_discount">50%</span>
+            </div>
+            <p class="info_old_price">$250</p>
+            <div class="info_cart">
+              <div class="info_quantity">
+                <img src="images/icon-minus.svg" alt="Minus_sign" />
+                <span>0</span>
+                <img src="images/icon-plus.svg" alt="plus_sign" />
+              </div>
+              <button class="cart_button">
+                <img src="images/icon-cart.svg" alt="icon_cart" />
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
